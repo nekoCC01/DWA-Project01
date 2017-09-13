@@ -14,6 +14,7 @@ require( "random_quote.php" );
     <title>Self Introduction - Daniel Kasai</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <link rel="stylesheet" href="custom_styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
 
@@ -29,7 +30,8 @@ require( "random_quote.php" );
         to form a foundation for future web projects.<br/><br/>
         I believe in the power of fresh air and the occasional walk :)
     </p>
-    <h3>Random Quote</h3>
+    <hr>
+    <h3 class="quote_heading">Random Quote</h3>
     <blockquote><?= $random_quote ?></blockquote>
 </div>
 

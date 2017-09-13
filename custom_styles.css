@@ -2,9 +2,27 @@ body {
     text-align: center;
 }
 img {
-    border-radius: 5%;
+    border-radius: 50%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(45, 69, 113, 0), rgba(45, 69, 113, 0.6), rgba(45, 69, 113, 0));
 }
 
 blockquote {
-    color: #6B949E;
+    color: #7688A9;
+    width: 45%;
+    margin: 0 auto;
+    height: 90px;
+    background: url("quotation_marks.png") no-repeat;
+}
+
+h2,h3 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.quote_heading {
+    color: #2D4571;
 }
