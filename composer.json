@@ -1,0 +1,7 @@
+{
+  "name": "nekocc01/dwa-project01",
+  "description": "Project 1 for HES Course CSCI E-15",
+  "require": {
+    "php": ">=7.0"
+  }
+}
